@@ -716,6 +716,34 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Augment: Self Repair",
+			"source": "CALH",
+			"prerequisite": [ {"race" : [ { "name": "Elderforged"}]}],
+			"entries": [
+				"You have been augmented with the ability to repair yourself by channeling the energy of your elemental core.",
+				"You gain a pool of d4s equal to your proficiency bonus. As an action, you can spend any number of these dice, roll them, and regain a number of hit points equal to the total rolled.",
+				"You regain all spent dice after finishing a long rest."
+			]
+		},
+		{
+			"name": "Augment: Arcane Armour",
+			"source": "CALH",
+			"prerequisite": [ {"race" : [ { "name": "Elderforged"}]}],
+			"innate": { "_": {"daily": {
+						"1e": [
+							"levitate",
+							"dispel magic"
+						]
+					}
+				}
+			},
+			"entries": [
+				"You have been augmented with a powerful arcane armour you can project over your body.",
+				"You learn the {@spell mage armor} spell, and can cast it as a bonus action, targeting only yourself. When you cast the spell this way, you gain a number of temporary hit points equal to your level.",
+				"Once you cast {@spell mage armor} using this feature, you can't do so again until you finish a long rest."
+			]
 		}
 	]
 }
