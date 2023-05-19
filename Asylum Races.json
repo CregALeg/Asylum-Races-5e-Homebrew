@@ -1,0 +1,721 @@
+{
+	"_meta": {
+    "sources": [
+        {
+            "json": "CaLH:Asylum Races",
+            "abbreviation": "CALH",
+            "full": "Asylum Races",
+            "authors": [
+                "CregALeg"
+            ],
+            "convertedBy": [
+                "CregALeg"
+            ],
+            "version": "1.0",
+            "url": "https://homebrewery.naturalcrit.com/share/1yMNbzJUUvbnxB01Zbfb7ojAKX7FzGkvFairaXMsdVGZM",
+            "targetSchema": "1.0"
+        }
+    ],
+    "dateAdded": 0,
+    "dateLastModified": 0
+	},"race": [
+		{
+			"name": "Bwargha",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"creatureTypes": ["humanoid"],
+			"size":"M",
+			"speed": 30,
+			"traitTags": [ "Powerful Build", "Natural Armor", "Natural Weapon" ],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"battleaxe|phb":true,
+					"handaxe|phb":true,
+					"greataxe|phb":true
+				}
+			],
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Creature Type",
+					"entries": [ "You are a Humanoid." ]
+				},
+				{
+					"type":"entries",
+					"name": "Powerful Build",
+					"entries": ["You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"You have thick, tough hide. When you aren’t wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor.",
+						{
+							"type": "inset",
+							"name": "Tip: AC Calculations Don't Stack",
+							"entries": [
+								"When the game gives you more than one way to calculate your Armor Class, you can use only one of them. You choose the one to use. For example, if you have the loxodon's Natural Armor trait and the monk's Unarmored Defense feature, you don't mix them together. Instead, you choose which one determines your AC."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Weapons",
+					"entries": [
+						"Your fanged maw and sharp claws are natural weapons, which you can use to make unarmed strikes.",
+						"If you hit with your bite, it deals piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+						"If you hit with your claws, they deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed Burst",
+					"entries": [ "By dropping to all fours, you can move more quickly for a time. You can take a dash action as a bonus action if both of your hands are free."]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [ "You have advantage on Wisdom ({@skill Perception}) checks that rely on smell."]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Training",
+					"entries": [ "Trained from birth to defend the wilderness, you are proficient with handaxes, battleaxes and greataxes."]
+				}
+			]
+		},
+		{
+			"name": "Elderforged",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"creatureTypes": ["construct"],
+			"size":"M",
+			"speed": 30,
+			"traitTags": [],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [ "poison", {
+				"choose": {"from": [ "acid", "cold", "fire", "lightning","thunder" ]}}
+			],
+			"conditionImmune": [ "disease" ],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanical Nature",
+					"entries": [
+						"You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being poisoned. You don't need to eat, drink, or breathe."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Machine",
+					"entries": [
+						"If the mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).",
+						"In addition, your creator designed you to benefit from spells and effects that preserve life, that wouldn't normally affect constructs. You can still be affected by any spell or other effect that restores hit points that can't normally affect Constructs, as well as the *spare the dying* cantrip."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elemental Core",
+					"entries": [
+						"You are powered by an elemental core that suffuses your body with arcane energy. Choose from acid, cold, fire, lightning, or thunder damage. You have resistance to your chosen damage type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Overload",
+					"entries": [
+						"You can overload your elemental core as an action, releasing a burst of elemental energy in a 10-foot radius around you. Creatures caught in the area must make a Constitution saving throw, taking 2d6 damage on a failed save, or half as much on a successful one. The damage is the same as the type you choice for your Elemental Core.",
+						"The damage increases by 1d6 when you reach 5th level (3d6), 11th level (4d6), and 17th level (5d6).",
+						"After you use this feature, you lose the damage resistance from your Elemental Core. You regain your damage resistance, and the ability to use this feature, after you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skarn",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"creatureTypes": ["humanoid"],
+			"size":"M",
+			"speed": 30,
+			"darkvision":60,
+			"traitTags": [ "Darkvision" ],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [ "poison" ],
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Creature Type",
+					"entries": [ "You are a Humanoid." ]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": ["You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."]
+				},
+				{
+					"type": "entries",
+					"name": "Plague Carrier",
+					"entries": ["You have resistance to poison damage. You also have advantage on saving throws you make to avoid or end the {@condition poisoned} condition on yourself. You are also immune to non-magical diseases."]
+				},
+				{
+					"type": "entries",
+					"name": "Scavenger",
+					"entries": ["You have proficiency in the Survival skill. Additionally, when you search the battlefield to recover expended ammunition, you can roll a {@dice d6} and recover additional ammunition equal to the number rolled"]
+				},
+				{
+					"type": "entries",
+					"name": "Narrow Frame",
+					"entries": ["You can squeeze through small spaces as if you were a Small creature."]
+				},
+				{
+					"type": "entries",
+					"name": "Skarn Venom",
+					"entries": ["You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray"]
+				}
+			]
+		},
+		{
+			"name": "Tiefling (Demonic)",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"creatureTypes": ["humanoid"],
+			"size":"M",
+			"speed": 30,
+			"darkvision":60,
+			"traitTags": [ "Darkvision" ],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [ { "choose": {"from": ["cold", "fire", "lightning" ]}}
+			],
+			"entries": [
+				{
+					"type":"entries",
+					"name":"Creature Type",
+					"entries": [ "You are a Humanoid." ]
+				},
+				{
+					"type":"entries",
+					"name":"Darkvision",
+					"entries": [ "Thanks to your demonic heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray." ]
+				},
+				{
+					"type":"entries",
+					"name":"Demonic Resilience",
+					"entries": [ "You have resistance to your choice of fire, cold or lightning damage." ]
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Bloodline of Chaos",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"chaos bolt|xge#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkness"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"thaumaturgy#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Chaotic Magic",
+					"entries":[
+						"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell chaos bolt} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell darkness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Baphomet",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"hunter's mark#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"beast sense"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"blade ward#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Beast Magic",
+					"entries":[
+						"You know the {@spell blade ward} cantrip. Once you reach 3rd level, you can cast the {@spell hunter's mark} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell beast sense} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Demogorgon",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"bane#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"crown of madness"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"sapping sting|egw#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mad Magic",
+					"entries":[
+						"You know the {@spell sapping sting|egw} cantrip. Once you reach 3rd level, you can cast the {@spell bane} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell crown of madness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Fraz-Urb’luu",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"sleep#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"gift of gab|ai"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deception Magic",
+					"entries":[
+						"You know the {@spell minor illusion} cantrip. Once you reach 3rd level, you can cast the {@spell sleep} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell gift of gab|ai} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Graz'zt",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"disguise self#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"vicious mockery#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deception Magic",
+					"entries":[
+						"You know the {@spell vicious mockery} cantrip. Once you reach 3rd level, you can cast the {@spell disguise self} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell suggestion} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Juiblex",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"grease#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"melf's acid arrow"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"acid splash#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Vile Magic",
+					"entries":[
+						"You know the {@spell acid splah} cantrip. Once you reach 3rd level, you can cast the {@spell grease} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell melf's acid arrow} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Malcanthet",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"charm person#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enthrall"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"friends#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Seduction Magic",
+					"entries":[
+						"You know the {@spell friends} cantrip. Once you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell enthrall} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Orcus",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"false life#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"ray of enfeeblement"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"chill touch#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deception Magic",
+					"entries":[
+						"You know the {@spell chill touch} cantrip. Once you reach 3rd level, you can cast the {@spell false life} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell ray of enfeeblement} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Yeenoghu",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"tasha's hideous laughter#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"branding smite"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"primal savagery|xge#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Destruction Magic",
+					"entries":[
+						"You know the {@spell primal savagery} cantrip. Once you reach 3rd level, you can cast the {@spell tasha's hideous laughter} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell branding smite} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Zuggtmoy",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"ray of sickness#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"wither and bloom|scc"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"infestation|xge#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rot Magic",
+					"entries":[
+						"You know the {@spell infestation} cantrip. Once you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell wither and bloom} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodline of Lolth",
+			"source": "CALH",
+			"lineage": "VRGR",
+			"raceName": "Tiefling (Demonic)",
+			"raceSource": "CALH",
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"web"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Spider Magic",
+					"entries":[
+						"You know the {@spell poison spray} cantrip. Once you reach 3rd level, you can cast the {@spell faerie fire} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell web} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		}
+	],
+	"feat":[
+		{
+			"name": "Demonic Constitution",
+			"source": "CALH",
+			"ability": [ {"con":1} ],
+			"prerequisite": [ {"race" : [ { "name": "Tiefling (Demonic)"}]}],
+			"entries": [
+				"Demonic blood runs strong in you, unlocking a resilience akin to that possessed by many demons. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Constitution score by 1, to a maximum of 20.",
+						"You have resistance to poison damage and advantage on saving throws against being poisoned.",
+						"You have resistance to one other damage type of your choice from your Demonic Resilience trait."
+					]
+				}
+			]
+		}
+	]
+}
