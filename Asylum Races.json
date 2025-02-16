@@ -1,32 +1,39 @@
 {
 	"_meta": {
-    "sources": [
-        {
-            "json": "CaLH:Asylum Races",
-            "abbreviation": "CALH",
-            "full": "Asylum Races",
-            "authors": [
-                "CregALeg"
-            ],
-            "convertedBy": [
-                "CregALeg"
-            ],
-            "version": "1.0",
-            "url": "https://homebrewery.naturalcrit.com/share/1yMNbzJUUvbnxB01Zbfb7ojAKX7FzGkvFairaXMsdVGZM",
-            "targetSchema": "1.0"
-        }
-    ],
-    "dateAdded": 0,
-    "dateLastModified": 0
-	},"race": [
+		"sources": [
+			{
+				"json": "CaLH:Asylum Races",
+				"abbreviation": "CALH",
+				"full": "Asylum Races",
+				"authors": [
+					"CregALeg"
+				],
+				"convertedBy": [
+					"CregALeg"
+				],
+				"version": "1.0",
+				"url": "https://homebrewery.naturalcrit.com/share/1yMNbzJUUvbnxB01Zbfb7ojAKX7FzGkvFairaXMsdVGZM",
+				"targetSchema": "1.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [
 		{
 			"name": "Bwargha",
 			"source": "CALH",
 			"lineage": "VRGR",
-			"creatureTypes": ["humanoid"],
-			"size":"M",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": "M",
 			"speed": 30,
-			"traitTags": [ "Powerful Build", "Natural Armor", "Natural Weapon" ],
+			"traitTags": [
+				"Powerful Build",
+				"Natural Armor",
+				"Natural Weapon"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -35,21 +42,25 @@
 			],
 			"weaponProficiencies": [
 				{
-					"battleaxe|phb":true,
-					"handaxe|phb":true,
-					"greataxe|phb":true
+					"battleaxe|phb": true,
+					"handaxe|phb": true,
+					"greataxe|phb": true
 				}
 			],
 			"entries": [
 				{
-					"type":"entries",
-					"name":"Creature Type",
-					"entries": [ "You are a Humanoid." ]
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
 				},
 				{
-					"type":"entries",
+					"type": "entries",
 					"name": "Powerful Build",
-					"entries": ["You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."]
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
 				},
 				{
 					"type": "entries",
@@ -77,17 +88,23 @@
 				{
 					"type": "entries",
 					"name": "Speed Burst",
-					"entries": [ "By dropping to all fours, you can move more quickly for a time. You can take a dash action as a bonus action if both of your hands are free."]
+					"entries": [
+						"By dropping to all fours, you can move more quickly for a time. You can take a dash action as a bonus action if both of your hands are free."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Smell",
-					"entries": [ "You have advantage on Wisdom ({@skill Perception}) checks that rely on smell."]
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Training",
-					"entries": [ "Trained from birth to defend the wilderness, you are proficient with handaxes, battleaxes and greataxes."]
+					"entries": [
+						"Trained from birth to defend the wilderness, you are proficient with handaxes, battleaxes and greataxes."
+					]
 				}
 			]
 		},
@@ -95,8 +112,10 @@
 			"name": "Elderforged",
 			"source": "CALH",
 			"lineage": "VRGR",
-			"creatureTypes": ["construct"],
-			"size":"M",
+			"creatureTypes": [
+				"construct"
+			],
+			"size": "M",
 			"speed": 30,
 			"traitTags": [],
 			"languageProficiencies": [
@@ -105,10 +124,23 @@
 					"anyStandard": 1
 				}
 			],
-			"resist": [ "poison", {
-				"choose": {"from": [ "acid", "cold", "fire", "lightning","thunder" ]}}
+			"resist": [
+				"poison",
+				{
+					"choose": {
+						"from": [
+							"acid",
+							"cold",
+							"fire",
+							"lightning",
+							"thunder"
+						]
+					}
+				}
 			],
-			"conditionImmune": [ "disease" ],
+			"conditionImmune": [
+				"disease"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -154,48 +186,66 @@
 			"name": "Skarn",
 			"source": "CALH",
 			"lineage": "VRGR",
-			"creatureTypes": ["humanoid"],
-			"size":"M",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": "M",
 			"speed": 30,
-			"darkvision":60,
-			"traitTags": [ "Darkvision" ],
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"anyStandard": 1
 				}
 			],
-			"resist": [ "poison" ],
+			"resist": [
+				"poison"
+			],
 			"entries": [
 				{
-					"type":"entries",
-					"name":"Creature Type",
-					"entries": [ "You are a Humanoid." ]
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
-					"entries": ["You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."]
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Plague Carrier",
-					"entries": ["You have resistance to poison damage. You also have advantage on saving throws you make to avoid or end the {@condition poisoned} condition on yourself. You are also immune to non-magical diseases."]
+					"entries": [
+						"You have resistance to poison damage. You also have advantage on saving throws you make to avoid or end the {@condition poisoned} condition on yourself. You are also immune to non-magical diseases."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Scavenger",
-					"entries": ["You have proficiency in the Survival skill. Additionally, when you search the battlefield to recover expended ammunition, you can roll a {@dice d6} and recover additional ammunition equal to the number rolled"]
+					"entries": [
+						"You have proficiency in the Survival skill. Additionally, when you search the battlefield to recover expended ammunition, you can roll a {@dice d6} and recover additional ammunition equal to the number rolled"
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Narrow Frame",
-					"entries": ["You can squeeze through small spaces as if you were a Small creature."]
+					"entries": [
+						"You can squeeze through small spaces as if you were a Small creature."
+					]
 				},
 				{
 					"type": "entries",
 					"name": "Skarn Venom",
-					"entries": ["You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray"]
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray"
+					]
 				}
 			]
 		},
@@ -203,34 +253,53 @@
 			"name": "Tiefling (Demonic)",
 			"source": "CALH",
 			"lineage": "VRGR",
-			"creatureTypes": ["humanoid"],
-			"size":"M",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": "M",
 			"speed": 30,
-			"darkvision":60,
-			"traitTags": [ "Darkvision" ],
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"anyStandard": 1
 				}
 			],
-			"resist": [ { "choose": {"from": ["cold", "fire", "lightning" ]}}
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"cold",
+							"fire",
+							"lightning"
+						]
+					}
+				}
 			],
 			"entries": [
 				{
-					"type":"entries",
-					"name":"Creature Type",
-					"entries": [ "You are a Humanoid." ]
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
 				},
 				{
-					"type":"entries",
-					"name":"Darkvision",
-					"entries": [ "Thanks to your demonic heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray." ]
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your demonic heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+					]
 				},
 				{
-					"type":"entries",
-					"name":"Demonic Resilience",
-					"entries": [ "You have resistance to your choice of fire, cold or lightning damage." ]
+					"type": "entries",
+					"name": "Demonic Resilience",
+					"entries": [
+						"You have resistance to your choice of fire, cold or lightning damage."
+					]
 				}
 			]
 		}
@@ -272,7 +341,7 @@
 				{
 					"type": "entries",
 					"name": "Chaotic Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell thaumaturgy} cantrip. Once you reach 3rd level, you can cast the {@spell chaos bolt} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell darkness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -314,7 +383,7 @@
 				{
 					"type": "entries",
 					"name": "Beast Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell blade ward} cantrip. Once you reach 3rd level, you can cast the {@spell hunter's mark} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell beast sense} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -356,7 +425,7 @@
 				{
 					"type": "entries",
 					"name": "Mad Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell sapping sting|egw} cantrip. Once you reach 3rd level, you can cast the {@spell bane} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell crown of madness} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -398,7 +467,7 @@
 				{
 					"type": "entries",
 					"name": "Deception Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell minor illusion} cantrip. Once you reach 3rd level, you can cast the {@spell sleep} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell gift of gab|ai} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -440,7 +509,7 @@
 				{
 					"type": "entries",
 					"name": "Deception Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell vicious mockery} cantrip. Once you reach 3rd level, you can cast the {@spell disguise self} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell suggestion} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -482,7 +551,7 @@
 				{
 					"type": "entries",
 					"name": "Vile Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell acid splah} cantrip. Once you reach 3rd level, you can cast the {@spell grease} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell melf's acid arrow} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -524,7 +593,7 @@
 				{
 					"type": "entries",
 					"name": "Seduction Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell friends} cantrip. Once you reach 3rd level, you can cast the {@spell charm person} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell enthrall} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -566,7 +635,7 @@
 				{
 					"type": "entries",
 					"name": "Deception Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell chill touch} cantrip. Once you reach 3rd level, you can cast the {@spell false life} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell ray of enfeeblement} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -608,7 +677,7 @@
 				{
 					"type": "entries",
 					"name": "Destruction Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell primal savagery} cantrip. Once you reach 3rd level, you can cast the {@spell tasha's hideous laughter} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell branding smite} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -650,7 +719,7 @@
 				{
 					"type": "entries",
 					"name": "Rot Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell infestation} cantrip. Once you reach 3rd level, you can cast the {@spell ray of sickness} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell wither and bloom} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -692,19 +761,31 @@
 				{
 					"type": "entries",
 					"name": "Spider Magic",
-					"entries":[
+					"entries": [
 						"You know the {@spell poison spray} cantrip. Once you reach 3rd level, you can cast the {@spell faerie fire} spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the {@spell web} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
 		}
 	],
-	"feat":[
+	"feat": [
 		{
 			"name": "Demonic Constitution",
 			"source": "CALH",
-			"ability": [ {"con":1} ],
-			"prerequisite": [ {"race" : [ { "name": "Tiefling (Demonic)"}]}],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Tiefling (Demonic)"
+						}
+					]
+				}
+			],
 			"entries": [
 				"Demonic blood runs strong in you, unlocking a resilience akin to that possessed by many demons. You gain the following benefits:",
 				{
@@ -720,7 +801,15 @@
 		{
 			"name": "Augment: Self Repair",
 			"source": "CALH",
-			"prerequisite": [ {"race" : [ { "name": "Elderforged"}]}],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Elderforged"
+						}
+					]
+				}
+			],
 			"entries": [
 				"You have been augmented with the ability to repair yourself by channeling the energy of your elemental core.",
 				"You gain a pool of d4s equal to your proficiency bonus. As an action, you can spend any number of these dice, roll them, and regain a number of hit points equal to the total rolled.",
@@ -730,8 +819,18 @@
 		{
 			"name": "Augment: Arcane Armour",
 			"source": "CALH",
-			"prerequisite": [ {"race" : [ { "name": "Elderforged"}]}],
-			"innate": { "_": {"daily": {
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Elderforged"
+						}
+					]
+				}
+			],
+			"innate": {
+				"_": {
+					"daily": {
 						"1e": [
 							"levitate",
 							"dispel magic"
@@ -743,6 +842,409 @@
 				"You have been augmented with a powerful arcane armour you can project over your body.",
 				"You learn the {@spell mage armor} spell, and can cast it as a bonus action, targeting only yourself. When you cast the spell this way, you gain a number of temporary hit points equal to your level.",
 				"Once you cast {@spell mage armor} using this feature, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Minor Brand of the Baron",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Baron as a Minor Brand, marking you among The Baron's chosen. Imbued with potent deceptive magics, you gain the following benefits:",
+				"You learn the friends cantrip. Additionally, you learn the distort value spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you have.",
+				"You learn to draw power from your brand to augment your talents. You can use an action roll to a {@dice d6}, conjuring a number of magical gold coins equal to 5 times the number rolled, which vanish after one minute. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Baron",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Baron"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Baron has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Intelligence or Charisma score by 1, to a maximum of 20.",
+				"You learn the gift of gab and incite greed spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Beast",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Beast as a Minor Brand, marking you among The Beasts's chosen. Imbued with animalistic magics, you gain the following benefits:",
+				"You learn the primal savagery cantrip. Additionally, you learn the animal friendship spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your body. When you make a Strength check or an attack roll using Strength, you can roll a {@dice d4} and add the number rolled to the total. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Beast",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Beast"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Beast has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Strength or Constitution score by 1, to a maximum of 20.",
+				"You learn the beast sense and haste spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Destroyer",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Destroyer as a Minor Brand, marking you among The Destroyer's chosen. Imbued with potent destructive magics, you gain the following benefits:",
+				"You learn the fire bolt cantrip. Additionally, you learn the burning hands spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your magic. When you deal damage to a creature, you can deal an additional {@damage 1d6} damage to the creature. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Destroyer",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Destroyer"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Destroyer has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Strength or Constitution score by 1, to a maximum of 20.",
+				"You learn the shatter and fireball spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Fallen",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Fallen as a Minor Brand, marking you among The Fallen's chosen. Imbued with mysterious, dark magics, you gain the following benefits:",
+				"You learn the chill touch cantrip. Additionally, you learn the silent image spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your magic. When a creature makes an attack roll against you, you can use your reaction to roll a {@dice d4} and subtract the number rolled from the creature's attack roll. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Fallen",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Fallen"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Fallen has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Dexterity or Charisma score by 1, to a maximum of 20.",
+				"You learn the invisibility and fear spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Keeper",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brands"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Keeper as a Minor Brand, marking you among The Keeper's chosen. Imbued with lawful magics, you gain the following benefits:",
+				"You learn the resistance cantrip. Additionally, you learn the command spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment yourself. When you deal damage to a creature, you can roll a {@dice d12} and give yourself a number of temporary hit points equal to the number rolled. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Keeper",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Keeper"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Keeper has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Constitution or Wisdom score by 1, to a maximum of 20.",
+				"You learn the warding bond and counterspell spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Maker",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Maker as a Minor Brand, marking you among The Maker's chosen. Imbued with potent creation magics, you gain the following benefits:",
+				"You learn the mending cantrip. Additionally, you learn the alarm spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your skills. When you make an ability check using a set of {@item artisan's tools|PHB}, you can give yourself advantage on the roll. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Maker",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Maker"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Maker has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Constitution or Intelligence score by 1, to a maximum of 20.",
+				"You learn the heat metal and lemound's tiny hut spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Matron",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "Prerequisite: No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Matron as a Minor Brand, marking you among The Matron's chosen. Imbued with potent healing magics, you gain the following benefits:",
+				"You learn the spare the dying cantrip. Additionally, you learn the cure wounds spell and can cast it through your brand once without expending a spell slot. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your healing. When you stabilise a creature or restore hit points to another creature, you can roll a {@dice d6} and cause the creature to regain hit points equal to the number rolled. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Matron",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Matron"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Matron has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Constitution or Wisdom score by 1, to a maximum of 20.",
+				"You learn the lesser restoration and mass healing word spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Minstrel",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Minstrel as a Minor Brand, marking you among The Minstrel's chosen. Imbued with charismatic, extravagant magics, you gain the following benefits:",
+				"You learn the vicious mockery cantrip. Additionally, you learn the charm person spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your magic. Whenever you make a Charisma check or an attack roll using Charisma, you can add a {@dice d4} to your roll. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Minstrel",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Minstrel"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Minstrel has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Wisdom or Charisma score by 1, to a maximum of 20.",
+				"You learn the nathair's mischief and fast friends spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Scribe",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Scribe as a Minor Brand, marking you among The Scribe's chosen. Imbued with intelligent magics, you gain the following benefits:",
+				"You learn the message cantrip. Additionally, you learn the identify spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your skills. When you make an Intelligence check or an attack roll using Intelligence, you can roll a {@dice d4} and add the number rolled to the total. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Scribe",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Scribe"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Scribe has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+				"You learn the borrowed knowledge and tongues spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Titan",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Titan as a Minor Brand, marking you among The Titan's chosen. Imbued with thunderous magics, you gain the following benefits:",
+				"You learn the shocking grasp cantrip. Additionally, you learn the thunderwave spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your magic. When you deal damage to a creature, you can cause one creature within 5 feet of that creature to take {@damage 1d4} lightning damage. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Titan",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Titan"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Titan has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Constitution or Intelligence score by 1, to a maximum of 20.",
+				"You learn the enlarge/reduce and lightning bolt spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Traveller",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Traveller as a Minor Brand, marking you among The Traveller's chosen. Imbued with mobile magics, you gain the following benefits:",
+				"You learn the light cantrip. Additionally, you learn the expeditious retreat spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your body. You can take the {@action Dash|XPHB} action as a bonus action on your turn. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Traveller",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Traveller"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Traveller has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Dexterity or Wisdom score by 1, to a maximum of 20.",
+				"You learn the misty step and water walk spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Untamed",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Untamed as a Minor Brand, marking you among The Untamed's chosen. Imbued with wild, druidic magics, you gain the following benefits:",
+				"You learn the thorn whip cantrip. Additionally, you learn the entangle spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your magic. When you deal damage to a creature, you can reduce that creature's speed by 10 feet until the start of your next turn. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Untamed",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Untamed"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Untamed has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"Increase your Strength or Wisdom score by 1, to a maximum of 20.",
+				"You learn the barkskin and speak with plants spells. You can cast each of these spells without expending a spell slot once through your Brand. When you cast a spell in this way, you can cast it without providing any somatic, verbal or material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have."
+			]
+		},
+		{
+			"name": "Minor Brand of the Weaver",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"other": "No other Brand"
+				}
+			],
+			"entries": [
+				"You have manifested the Brand of the Weaver as a Minor Brand, marking you among The Traveller's chosen. Imbued with enigmatic magics, you gain the following benefits:",
+				"You learn the dancing lights cantrip. Additionally, you learn the sleep spell and can cast it through your Brand once without expending a spell slot or providing any components. Once you cast the spell in this way you can't cast it this way again until you finish a short or long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast this spell using any spell slots you already have.",
+				"You learn to draw power from your brand to augment your allies. When a creature you can see within 30 feet makes a saving throw, you can roll a {@dice d4} and add the number rolled to their roll. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses after finishing a long rest."
+			]
+		},
+		{
+			"name": "Major Brand of the Weaver",
+			"source": "CaLH:Asylum Races",
+			"page": 0,
+			"prerequisite": [
+				{
+					"level": 4,
+					"other": "Minor Brand of the Weaver"
+				}
+			],
+			"entries": [
+				"Your Minor Brand of the Weaver has grown in power, transforming into a Major Brand. Suffused with greater magic than before, you gain the following benefits:",
+				"-You learn the {@sense darkvision} and clairvoyance spells. You can cast each of these spells without expending a spell slot once through your Brand. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. The spells' spellcasting ability is your choice of Intelligence, Wisdom or Charisma. You can also cast these spells using any spell slots you have.",
+				"-Your capabilities for wielding your Brand's power have improved. You regain all expended uses of your Minor Brand augment when you finish a short or long rest."
 			]
 		}
 	]
